@@ -304,8 +304,7 @@
             fbLink: null,
             youtubeLink: null,
             website: null,
-            intervalMessages: [Entrem Em Nosso Grupo No Facebook / Get in our page on facebook:https://www.facebook.com/groups/1767675233477121/
-],
+            intervalMessages: ["Entrem Em Nosso Grupo No Facebook / Get in our page on facebook:https://www.facebook.com/groups/1767675233477121/"],
             messageInterval: 6,
             songstats: true,
             commandLiteral: "!",
