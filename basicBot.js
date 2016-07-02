@@ -299,7 +299,7 @@
             etaRestriction: false,
             welcome: true,
             opLink: null,
-            rulesLink:"https://goo.gl/iXK0q3",
+            rulesLink: "https://goo.gl/iXK0q3",
             themeLink: null,
             fbLink: "https://www.facebook.com/groups/AlternativeRockOfficial/",
             youtubeLink: null,
