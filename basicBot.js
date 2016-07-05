@@ -304,8 +304,8 @@
             fbLink: "https://www.facebook.com/groups/AlternativeRockOfficial/",
             youtubeLink: null,
             website: null,
-            intervalMessages: ["!roulette","Entrem Em Nosso Grupo No Facebook / Get in our page on facebook:https://www.facebook.com/groups/AlternativeRockOfficial/","/me Roleta a cada 9 musicas fiquem atentos! / Roulette every 9 songs stay tuned!"],
-            messageInterval: 5,
+            intervalMessages: ["Entrem Em Nosso Grupo No Facebook / Get in our page on facebook:https://www.facebook.com/groups/AlternativeRockOfficial/"],
+            messageInterval: 6,
             songstats: true,
             commandLiteral: "!",
             blacklists: {
