@@ -71,7 +71,7 @@
     "timelimit": "@%%NAME%%, sua m\u00fasica tem dura\u00e7\u00e3o maior que %%MAXLENGTH%% minutos. Voc\u00ea precisa ter permiss\u00e3o para tocar m\u00fasicas longas.",
     "permissionownsong": "\/me :up: @%%NAME%% tem permiss\u00e3o para tocar m\u00fasica de pr\u00f3pria autoria!",
     "isblacklisted": "\/me Essa m\u00fasica est\u00e1 na lista negra %%BLACKLIST%%! Pulando m\u00fasica...",
-    "isopen": "@djs Roleta Iniciada! Digite (!join) Para Participar, (O ganhador sera movido pra uma posição aleatoria na lista de espera) /Initiated Roulette! Type (!Join) To participate, (The winner will be moved to a random position on the waiting list)",
+    "isopen": "\/me @djs :game_die:Roleta Iniciada!:game_die: Digite (!join) Para Participar, (O ganhador sera movido pra uma posição aleatoria na lista de espera) /:game_die:Initiated Roulette!:game_die: Type (!Join) To participate, (The winner will be moved to a random position on the waiting list)",
     "winnerpicked": "Um vencedor foi escolhido! @%%NAME%% ganhou a posi\u00e7\u00e3o %%POSITION%%.",
     "ball": "\/me A pergunta de %%NAME%% foi: \"%%QUESTION%%\" e a resposta de %%BOTNAME%% \u00e9: \"%%RESPONSE%%\"",
     "notghosting": "[%%NAME1%%] %%NAME2%% n\u00e3o virou fantasma.",
