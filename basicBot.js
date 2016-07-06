@@ -304,7 +304,7 @@
             fbLink: "https://www.facebook.com/groups/AlternativeRockOfficial/",
             youtubeLink: null,
             website: null,
-            intervalMessages: ["!roulette","@djs Entrem Em Nosso Grupo No Facebook / Get in our page on facebook:https://www.facebook.com/groups/AlternativeRockOfficial/","Roleta a cada 9 musicas, fiquem atentos! / @djs roulette every 9 songs , stay tuned!"],
+            intervalMessages: ["@djs Entrem Em Nosso Grupo No Facebook / Get in our page on facebook:https://www.facebook.com/groups/AlternativeRockOfficial/","Roleta a cada 9 musicas, fiquem atentos! / @djs roulette every 9 songs , stay tuned!"],
             messageInterval: 6,
             songstats: true,
             commandLiteral: "!",
