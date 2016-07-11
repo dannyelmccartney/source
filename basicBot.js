@@ -239,7 +239,7 @@
     var basicBot = {
         version: "2.8.17",
         status: false,
-        name: "basicBot",
+        name: "Alternative Bot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/dannyelmccartney/source/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
@@ -249,20 +249,20 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
-            language: "english",
+            botName: "Alternative Bot",
+            language: "portuguese",
             chatLink: "https://rawgit.com/dannyelmccartney/source/master/lang/pt-BR.json",
             scriptLink: "https://rawgit.com/dannyelmccartney/source/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
-            startupVolume: 0, // 0-100
-            startupEmoji: false, // true or false
+            startupVolume: 100, // 0-100
+            startupEmoji: true, // true or false
             autowoot: true,
-            autoskip: false,
+            autoskip: true,
             smartSkip: true,
-            cmdDeletion: true,
+            cmdDeletion: false,
             maximumAfk: 120,
-            afkRemoval: true,
+            afkRemoval: false,
             maximumDc: 120,
             bouncerPlus: true,
             blacklistEnabled: true,
@@ -271,18 +271,18 @@
             maximumLocktime: 10,
             cycleGuard: true,
             maximumCycletime: 10,
-            voteSkip: false,
-            voteSkipLimit: 10,
-            historySkip: false,
+            voteSkip: true,
+            voteSkipLimit: 6,
+            historySkip: true,
             timeGuard: true,
             maximumSongLength: 10,
             autodisable: true,
             autoroulette: true,
             commandCooldown: 30,
             usercommandsEnabled: true,
-            thorCommand: false,
+            thorCommand: true,
             thorCooldown: 10,
-            skipPosition: 3,
+            skipPosition: 1,
             skipReasons: [
                 ["theme", "This song does not fit the room theme. "],
                 ["op", "This song is on the OP list. "],
@@ -306,8 +306,8 @@
             fbLink: "https://www.facebook.com/groups/AlternativeRockOfficial/",
             youtubeLink: null,
             website: null,
-            intervalMessages: ["Entrem Em Nosso Grupo No Facebook / Get in our page on facebook:https://www.facebook.com/groups/AlternativeRockOfficial/","Roleta a cada 9 musicas, fiquem atentos! / @djs roulette every 9 songs , stay tuned!"],
-            messageInterval: 6,
+            intervalMessages: ["Entrem Em Nosso Grupo No Facebook: https://www.facebook.com/groups/AlternativeRockOfficial/","Roleta a cada 35 minutos, fiquem atentos!"],
+            messageInterval: 2,
             songstats: true,
             commandLiteral: "!",
             blacklists: {
