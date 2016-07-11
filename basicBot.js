@@ -239,7 +239,7 @@
     var basicBot = {
         version: "2.8.17",
         status: false,
-        name: "Alternative Bot",
+        name: "basic bot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/dannyelmccartney/source/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
