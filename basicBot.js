@@ -27,6 +27,7 @@
 
     var kill = function () {
         clearInterval(basicBot.room.autodisableInterval);
+        clearInterval(basicBot.room.autorouletteInterval);
         clearInterval(basicBot.room.afkInterval);
         basicBot.status = false;
     };
@@ -276,6 +277,7 @@
             timeGuard: true,
             maximumSongLength: 10,
             autodisable: true,
+            autoroulette: true,
             commandCooldown: 30,
             usercommandsEnabled: true,
             thorCommand: false,
@@ -332,6 +334,13 @@
                 if (basicBot.status && basicBot.settings.autodisable) {
                     API.sendChat('!afkdisable');
                     API.sendChat('!joindisable');
+                }
+            },
+            autorouletteInterval: null,
+            autorouletteFunc: function () {
+                if (basicBot.status && basicBot.settings.autoroulette) {
+                    API.chatLog('!roulette');
+                    API.sendChat('/me Roleta automatica');
                 }
             },
             queueing: 0,
@@ -1419,6 +1428,9 @@
             basicBot.room.autodisableInterval = setInterval(function () {
                 basicBot.room.autodisableFunc();
             }, 60 * 60 * 1000);
+            basicBot.room.autorouletteInterval = setInterval(function () {
+                basicBot.room.autorouletteFunc();
+            }, 30 * 60 * 1000); // 30 representa os minutos
             basicBot.loggedInID = API.getUser().id;
             basicBot.status = true;
             API.sendChat('/cap ' + basicBot.settings.startupCap);
