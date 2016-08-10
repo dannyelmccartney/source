@@ -960,7 +960,7 @@
 			
 			if (basicBot.settings.grabNotification) {
 				var media = API.getMedia();
-				API.sendChat(subChat(basicBot.chat.songGrabbed, {name: user.username, song: media.author + ' ' + media.title}));
+				API.sendChat(subChat(basicBot.chat.songGrabbed, {name: obj.user.username, song: media.author + ' - ' + media.title}));
 			}
         },
         eventDjadvance: function (obj) {
