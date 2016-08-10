@@ -300,6 +300,8 @@
             filterChat: false,
             etaRestriction: false,
             welcome: true,
+			userLeaveNotification: true,
+			grabNotification: true,
             opLink: null,
             rulesLink: "https://goo.gl/iXK0q3",
             themeLink: null,
@@ -913,6 +915,10 @@
                     }
                 }
             }
+			
+			if (basicBot.settings.userLeaveNotification) {
+				API.sendChat(subChat(basicBot.chat.userLeft, {name: user.username}));
+			}
         },
         eventVoteupdate: function (obj) {
             for (var i = 0; i < basicBot.room.users.length; i++) {
@@ -951,6 +957,11 @@
                     basicBot.room.users[i].votes.curate++;
                 }
             }
+			
+			if (basicBot.settings.grabNotification) {
+				var media = API.getMedia();
+				API.sendChat(subChat(basicBot.chat.songGrabbed, {name: user.username, song: media.author + ' ' + media.title}));
+			}
         },
         eventDjadvance: function (obj) {
             if (basicBot.settings.autowoot) {
@@ -3712,6 +3723,46 @@
                     else {
                         if (typeof basicBot.settings.youtubeLink === "string")
                             API.sendChat(subChat(basicBot.chat.youtube, {name: chat.un, link: basicBot.settings.youtubeLink}));
+                    }
+                }
+            },
+			
+			toggleGrabNotificationCommand: {
+                command: 'togglegrab',
+                rank: 'bouncer',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        if (basicBot.settings.grabNotification) {
+                            basicBot.settings.grabNotification = !basicBot.settings.grabNotification;
+                            API.sendChat(subChat(basicBot.chat.toggleoff, {name: chat.un, 'function': basicBot.chat.grabNotification}));
+                        }
+                        else {
+                            basicBot.settings.grabNotification = !basicBot.settings.grabNotification;
+                            API.sendChat(subChat(basicBot.chat.toggleon, {name: chat.un, 'function': basicBot.chat.grabNotification}));
+                        }
+                    }
+                }
+            },
+			
+			toggleUserLeaveNotificationCommand: {
+                command: 'toggleleave',
+                rank: 'bouncer',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        if (basicBot.settings.userLeaveNotification) {
+                            basicBot.settings.userLeaveNotification = !basicBot.settings.userLeaveNotification;
+                            API.sendChat(subChat(basicBot.chat.toggleoff, {name: chat.un, 'function': basicBot.chat.userLeaveNotification}));
+                        }
+                        else {
+                            basicBot.settings.userLeaveNotification = !basicBot.settings.userLeaveNotification;
+                            API.sendChat(subChat(basicBot.chat.toggleon, {name: chat.un, 'function': basicBot.chat.userLeaveNotification}));
+                        }
                     }
                 }
             }
