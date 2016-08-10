@@ -3307,8 +3307,8 @@
                               indexArrUsedThor,
                               thorCd = false,
                               timeInMinutes = 0,
-                              worthyAlg = Math.floor(Math.random() * 10),
-                              worthy = worthyAlg == 10 ? true : false;
+                              worthyAlg = Math.floor(Math.random() * 7),
+                              worthy = worthyAlg == 0 ? true : false;
 
                           for (var i = 0; i < djlist.length; i++) {
                               if (djlist[i].id == id)
