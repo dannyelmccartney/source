@@ -310,7 +310,7 @@
             website: null,
             intervalMessages: [":loudspeaker:Roleta a cada 35 minutos, fiquem atentos! / Roulette every 35 minutes, stay tuned!","Entrem em nosso grupo no facebook: http://facebook.com/groups/AlternativeRockOfficial","Regras/Rules: https://goo.gl/iXK0q3","@djs Sejam muito bem vindos! O tema de momento é ---> Rock, Metal e MPB. Duvidas? pergunte a alguem da staff!","Comandos do Alternative Bot: http://git.io/245Ppg","Autowoot Recomendado pela Alternative Rock: https://rcs.radiant.dj/"],
             messageInterval: 4,
-            songstats: true,
+            songstats: false,
             commandLiteral: "!",
             blacklists: {
                 NSFW: "https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json",
