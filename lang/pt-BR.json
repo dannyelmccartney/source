@@ -202,13 +202,13 @@
     "voteratio": "\/me [@%%NAME%%] @%%USERNAME%% ~ woots: %%WOOT%%, mehs: %%MEHS%%, taxa\/propor\u00e7\u00e3o (w\/m): %%RATIO%%.",
     "website": "\/me Visite nosso site: %%LINK%%",
     "youtube": "\/me [%%NAME%%] Inscreva-se no nosso canal: %%LINK%%",
-    "songstatistics": "\/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%:+1:\/%%GRABS%%:gem:\/%%MEHS%%:-1:.",
+    "songstatistics": "\/me %%ARTIST%% - %%TITLE%%: :+1:%%WOOTS%% :gem:\/%%GRABS%% :-1:\/%%MEHS%%.",
     "thorNotClose": "\/me @%%NAME%% Sai lixo... Você não é digno de chegar nem perto do martelo.",
     "thorcd": "\/me @%%NAME%% O infeliz, espera que voc\u00ea pode tentar levantar o martelo em %%TIME%% minutos.",
-    "thorWorthy": "\/me @%%NAME%% você é digno do martelão de thor :lenny: ... Pega no martelão dele e vai para primeiro na fila :lenny: .",
+    "thorWorthy": "\/me @%%NAME%% você é digno do martelão de thor :lenny: Pega no martelão dele e vai para primeiro na fila :lenny:",
     "thorNotWorthy": "\/me @%%NAME%% voc\u00ea n\u00e3o \u00e9 d\u00edgno do martelo, Vai pra ultimo na lista seu merda.",
     "grabNotification": "Notificação de Adds",
     "songGrabbed": "\/me %%NAME%% Está cansado da playlist dele e roubou à música %%SONG%% para inovar.",
     "userLeaveNotification": "Notificação de saída de usuários",
-    "userLeft": "\/me @%%NAME%% Não aguentou os bit dos rock e correu da vara :lenny: ."
+    "userLeft": "\/me @%%NAME%% Não aguentou os bit dos rock e correu da vara :lenny:"
 }
