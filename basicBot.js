@@ -401,6 +401,9 @@
 					}, 1 * 1000, winner, pos);
 					
 */					var wl = API.getWaitList();
+
+					if (wl.length <= 1) return;
+					
 					var pos = Math.floor((Math.random() * wl.length) + 1);
 					var user = wl[i];
 					var name = user.username;
