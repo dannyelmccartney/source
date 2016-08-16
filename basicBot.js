@@ -404,8 +404,8 @@
 
 					if (wl.length <= 1) return;
 					
-					var pos = Math.floor((Math.random() * wl.length) + 1);
-					var user = wl[i];
+					var pos = Math.floor((Math.random() * wl.length));
+					var user = wl[pos];
 					var name = user.username;
 					var winner = user.id;
 					API.sendChat(subChat(basicBot.chat.winnerpicked, {name: name, position: 1}));
