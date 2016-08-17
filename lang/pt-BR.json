@@ -208,7 +208,7 @@
     "thorWorthy": "\/me @%%NAME%% você é digno do martelão de thor :lenny: Pega no martelão dele e vai para primeiro na fila :lenny:",
     "thorNotWorthy": "\/me @%%NAME%% voc\u00ea n\u00e3o \u00e9 d\u00edgno do martelo, Vai pra ultimo na lista seu merda.",
     "grabNotification": "Notificação de Adds",
-    "songGrabbed": "\/me %%NAME%% Está cansado da playlist dele e roubou à música %%SONG%% para inovar.",
+    "songGrabbed": "\/me %%NAME%% Adicionou a musica %%SONG%% em sua playlist! <3.",
     "userLeaveNotification": "Notificação de saída de usuários",
     "userLeft": "\/me @%%NAME%% Não aguentou os bit dos rock e correu da vara :lenny:"
 }
