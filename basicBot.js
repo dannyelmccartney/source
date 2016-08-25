@@ -308,7 +308,7 @@
             fbLink: "https://www.facebook.com/groups/AlternativeRockOfficial/",
             youtubeLink: null,
             website: null,
-            intervalMessages: [":loudspeaker:Roleta a cada 35 minutos, fiquem atentos! / Roulette every 35 minutes, stay tuned!","Entrem em nosso grupo no facebook: http://facebook.com/groups/AlternativeRockOfficial","Regras/Rules: https://goo.gl/iXK0q3","Sejam muito bem vindos! O tema de momento é ---> Rock, Metal e MPB. Duvidas? pergunte a alguem da staff!","Comandos do Alternative Bot: http://git.io/245Ppg","Autowoot Recomendado pela Alternative Rock: https://rcs.radiant.dj/"],
+            intervalMessages: [":warning: Atenção, A roleta agora está automática! Um user é escolhido a cada 35 minutos! :warning:","Entrem em nosso grupo no facebook: http://facebook.com/groups/AlternativeRockOfficial",":warning: Leiam as regras :https://goo.gl/iXK0q3 É importante pois a violação da mesma irá resultar em BAN :warning:","@djs Sejam muito bem vindos! O tema de momento é ---> Rock, Metal e MPB. Duvidas? pergunte a alguem da staff!","Comandos do Alternative Bot: http://git.io/245Ppg","@djs Autowoot Recomendado pela Alternative Rock: https://rcs.radiant.dj/"],
             messageInterval: 5,
             songstats: false,
             commandLiteral: "!",
