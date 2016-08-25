@@ -379,16 +379,16 @@
                 participants: [],
                 countdown: null,
                 startRoulette: function () {
-			basicBot.room.roulette.rouletteStatus = true;
+/*			basicBot.room.roulette.rouletteStatus = true;
 			basicBot.room.roulette.countdown = setTimeout(function () {
 				basicBot.room.roulette.endRoulette();
 			}, 60 * 1000);
 			API.sendChat(basicBot.chat.isopen);
-					
-//			basicBot.room.roulette.endRoulette();
+*/					
+			basicBot.room.roulette.endRoulette();
                 },
                 endRoulette: function () {
-			basicBot.room.roulette.rouletteStatus = false;
+/*			basicBot.room.roulette.rouletteStatus = false;
 			var ind = Math.floor(Math.random() * basicBot.room.roulette.participants.length);
 			var winner = basicBot.room.roulette.participants[ind];
 			basicBot.room.roulette.participants = [];
@@ -399,8 +399,8 @@
 			setTimeout(function (winner, pos) {
 				basicBot.userUtilities.moveUser(winner, 1, false);
 			}, 1 * 1000, winner, pos);
-					
-/*			var wl = API.getWaitList();
+*/					
+			var wl = API.getWaitList();
 
 			if (wl.length <= 1) return;
 			
@@ -412,7 +412,6 @@
 			setTimeout(function (winner, pos) {
 				basicBot.userUtilities.moveUser(winner, 1, false);
 			}, 1 * 1000, winner, pos);
-*/
                 }
             },
             usersUsedThor: []
