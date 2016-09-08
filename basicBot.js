@@ -308,8 +308,8 @@
             fbLink: "https://www.facebook.com/groups/AlternativeRockOfficial/",
             youtubeLink: null,
             website: null,
-            intervalMessages: [":warning: Atenção, A roleta agora está automática! Um user é escolhido a cada 35 minutos! :warning:","Entrem em nosso grupo no facebook: http://facebook.com/groups/AlternativeRockOfficial",":warning: Leiam as regras :https://goo.gl/iXK0q3 É importante pois a violação da mesma irá resultar em BAN :warning:","@djs Sejam muito bem vindos! O tema de momento é ---> Rock, Metal e MPB. Duvidas? pergunte a alguem da staff!","Comandos do Alternative Bot: http://git.io/245Ppg","@djs Autowoot Recomendado pela Alternative Rock: https://rcs.radiant.dj/"],
-            messageInterval: 5,
+            intervalMessages: [":warning: Atenção, A roleta agora está automática! Um user é escolhido a cada 35 minutos! :warning:","Entrem em nosso grupo no facebook: http://facebook.com/groups/AlternativeRockOfficial",":warning: Leiam as regras :https://goo.gl/iXK0q3 É importante pois a violação da mesma irá resultar em BAN :warning:","@djs Sejam muito bem vindos! O tema de momento é ---> Rock, Metal e MPB. Duvidas? pergunte a alguem da staff!","Comandos do Alternative Bot: http://git.io/245Ppg","@djs Autowoot Recomendado pela Alternative Rock: https://rcs.radiant.dj/","@djs Adicionem nossa sala nos favoritos! Para que voçê possa voltar mais vezes :blush:"],
+            messageInterval: 6,
             songstats: false,
             commandLiteral: "!",
             blacklists: {
